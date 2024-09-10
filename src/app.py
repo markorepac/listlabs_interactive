@@ -7,7 +7,6 @@ import dash_bootstrap_components as dbc
 
 import numpy as np
 import pandas as pd
-import scipy as sp
 from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
