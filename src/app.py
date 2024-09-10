@@ -383,7 +383,7 @@ def update_ini3(sc,weight,n,p):
     fig.update_layout(hovermode='x')
     fig.layout.xaxis.title.text= "setting_no"
     fig.layout.yaxis.title.text= "score values"    
-    fig.layout.title.text = "Different metric scores for selected params, lower the score, better"       
+    fig.layout.title.text = "Different metric scores for selected params"       
      
     return fig
 
@@ -498,7 +498,7 @@ def update_Dini3(sc,crit,md,ms):
     fig.update_layout(hovermode='x')
     fig.layout.xaxis.title.text= "setting_no"
     fig.layout.yaxis.title.text= "score values"    
-    fig.layout.title.text = "Different metric scores for selected params, lower the score, better"       
+    fig.layout.title.text = "Different metric scores for selected params"       
      
     return fig
 
