@@ -1,10 +1,9 @@
 import dash
 from dash import dcc, html, Input, Output, callback, State, dash_table, Dash
 import dash_bootstrap_components as dbc
-from dash.exceptions import PreventUpdate
 
-import base64
-import io
+
+
 
 import numpy as np
 import pandas as pd
@@ -24,9 +23,6 @@ from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.svm import SVC
-from sklearn.inspection import DecisionBoundaryDisplay
-import joblib
-from matplotlib.colors import ListedColormap
 
 from sklearn.utils import shuffle
 
